@@ -2,7 +2,7 @@ body {
   background: white;
 }
 p {
-  color: black;
+  color: white;
 }
 h1 {
   font-weight: bold;
@@ -21,6 +21,7 @@ h1{
 }
 h2{
   font-family: fantasy;
+  color: white;
 }
 a{
   font-family: times;
