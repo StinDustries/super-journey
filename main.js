@@ -9,15 +9,15 @@ var stupidButton = {
 	},
 
 	flyAway: function(e) {
-		mLeft = Math.random() * 600;
-		mTop = Math.random() * 600;
+		mLeft = Math.random() * 500;
+		mTop = Math.random() * 500;
 
 		$('#button').css('margin-left', mLeft);
 		$('#button').css('margin-top', mTop);
 	},
 
 	showWin: function(e) {
-		alert('Nice! Here, have a cookie!');
+		alert('"oH wOw i CLiCCe TeH bUtToN." Amazing. You know what you just did? You cheated. You cheated at a stupid game that took me 5 minutes to create. Hope you feel proud of yourself. Jerk. ');
 	}
 };
 
