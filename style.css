@@ -104,3 +104,10 @@ a{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+.normal {
+  color: white;
+  text-decoration-style: none;
+  text-decoration-color: none;
+  text-decoration: none;
+}  
