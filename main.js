@@ -9,7 +9,7 @@ var stupidButton = {
 	},
 
 	flyAway: function(e) {
-		mLeft = Math.random() * 400;
+		mLeft = Math.random() * 600;
 		mTop = Math.random() * 400;
 
 		$('#button').css('margin-left', mLeft);
