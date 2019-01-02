@@ -4,7 +4,7 @@ var stupidButton = {
 	},
 
 	attachEvents: function() {
-		$('#button').on('hover', this.flyAway);
+		$('#button').on('hover', this.showWin);
 		$('#moving').on('click', this.showWin);
 	},
 
