@@ -439,5 +439,5 @@ a{
   animation-timing-function: ease-out;
   transform-origin: bottom center;
   animation-name: intensifies;
-  animation-duration: 5s;
+  animation-duration: 30s;
 }
