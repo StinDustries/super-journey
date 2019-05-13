@@ -479,6 +479,6 @@ a{
 .twister {
   animation-name: twister;
   animation-duration: 5s;
-  animation-iteration-count: infinite
+  animation-iteration-count: infinite;
   z-index: 1000;
 }
