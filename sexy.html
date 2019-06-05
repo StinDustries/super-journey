@@ -1,0 +1,49 @@
+
+<html lang="en">
+<head>
+    <title>NEW! Cards Against Humanity Online + Pictures!</title>
+    <meta name="description" content="Play cards or pictures! Filthy as f***. Looks great on iPhone, Android, Mac and PC.">
+    <meta name="google-site-verification" content="g2eX0DLZ-3kPLUokC_wtXJB41hILkz84741NmjuU0Zc">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body style="display:none;">
+    <div id="react-global-abs"></div>
+    <div id="fatal_error_container" class="hidden">
+        <div>Fatal Error</div>
+        <div id="fatal_error_text"></div>
+        <a id="fatal_error_mail" target="_top">Click to get it fixed ASAP</a>
+    </div>
+    <div id="react-center-popup"></div>
+    <div id="react-main-view"></div>
+</div>
+
+<div id="mobile-root"></div>
+<div id="react-color-picker-root"></div>
+<div id="react-disconnected"></div>
+
+<script src="main.dll.js"></script>
+
+<script type="text/javascript">
+var cah_profile = {"dll_version": 27, "version": 2428, "location": "remote"};
+var url_args = {};
+window.location.href.replace(
+    /[?&]+([^=&]+)=?([^&]*)?/gi, // regexp
+    function( m, key, value ) { // callback
+        url_args[key] = value !== undefined ? value : '';
+    }
+);
+if (!('username' in url_args)) {
+    var head = document.getElementsByTagName('body')[0];
+    
+    script = document.createElement('script');
+    script.src = 'remote/main.js?v=2428';
+    script.type = 'text/javascript';
+    script.charset = "utf-8";
+    head.appendChild(script)
+}
+</script>
+
+</body>
+</html>
